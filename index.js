@@ -1,5 +1,5 @@
 function BoardMember(name, homeState, training){
-   constructor {
+   BoardMember.prototype.constructor() {
    this.name = name;
    this.homeState = homeState;
    this.training = training;
