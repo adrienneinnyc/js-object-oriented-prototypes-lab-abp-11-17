@@ -1,11 +1,10 @@
 function BoardMember(name, homeState, training){
-   constructor() {
    this.name = name;
    this.homeState = homeState;
    this.training = training;
  }
 
-   veto(){
+   BoardMember.prototype.veto(){
      return 'No, I must disagree'
    }
 
